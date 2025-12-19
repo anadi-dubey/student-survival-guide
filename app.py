@@ -128,7 +128,7 @@ with col_ai:
             try:
                 # CONFIGURE AI
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-pro')
+                model = genai.GenerativeModel('gemini-2.5-flash')
                 
                 # THE PROMPT (The Personality)
                 prompt = f"""
